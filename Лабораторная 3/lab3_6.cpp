@@ -11,14 +11,12 @@ int main()
 	setlocale(LC_ALL, "rus");
 	int A, k;
 	cout << "Введите A: "; cin >> A;
-	k = 1;
-	k = A * k;
-	k = A * k;
-	k = A * k;
-	A = pow(A, k);
-
+	A=k;
+	k=A*A;
+	A=k*k;
+	k=A*k;
+	
 	cout << "A^8 = " << A;
-	//cout << k;
 
 
 }
