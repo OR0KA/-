@@ -11,7 +11,7 @@ int main()
 	setlocale(LC_ALL, "rus");
 	int A, k;
 	cout << "Введите A: "; cin >> A;
-	A=k;
+
 	k=A*A;
 	A=k*k;
 	k=A*k;
