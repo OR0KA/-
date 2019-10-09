@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	int A, k, j, b, n, m;
+	cout << "Введите A: "; cin >> A;
+
+	k = A * A;
+	j = k * A;
+	m = j * A;
+	n = m * A;
+	b = n * n;
+	
+
+	cout << "A^10 = " << b;
