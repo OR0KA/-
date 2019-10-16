@@ -9,8 +9,10 @@ using namespace std;
 
 int main()
 {
+	setlocale(0, "");
+	int A, B;
+	cout << "Введите B: "; cin >> B;
+	cout << "Введите A > B: "; cin >> A;
+	cout << "Количество отрезков B, размещённых на отрезке A =" << A / B;
+
 }
-
-
-
-
